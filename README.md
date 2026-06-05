@@ -142,6 +142,12 @@ To make the project clearer and easier to read, the most useful contents at this
 - project roadmap;
 - progressive publication of the code.
 
+## Current progress
+
+- **Done:** definition of the single-Master architecture, management of Master and Slave roles, ESP-NOW communication between nodes, local Web GUI, automatic Master election, sensor integration, and persistent parameter handling.
+- **In progress:** field testing, evaluation of network stability in real environments, and refinement of the hybrid architecture.
+- **Next:** evolution toward a more robust and scalable network, broader integration scenarios, and further hardware development.
+
 ## Roadmap
 
 - [x] Definition of the single-Master architecture.
@@ -149,9 +155,11 @@ To make the project clearer and easier to read, the most useful contents at this
 - [x] Local GUI and Web Server implementation.
 - [x] Automatic Master election handling.
 - [x] Sensor integration and persistent parameters.
-- [ ] Improve robustness in larger environments.
-- [ ] Introduce a mesh backbone for powered nodes.
-- [ ] Refine the hybrid ESP-NOW + mesh model.
+- [ ] Improve the network with a hybrid **ESP-MESH + ESP-NOW** architecture.
+- [ ] Integrate the system with a **voice assistant**.
+- [ ] Design and build **3D-printed enclosures** for the sensor nodes.
+- [ ] Test the platform with other sensor types, including **video surveillance** use cases.
+- [ ] Add **solar panels** where possible for battery-powered nodes.
 - [ ] Publish a more stable and complete version.
 
 ## Final note
