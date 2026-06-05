@@ -142,17 +142,25 @@ Per rendere il progetto più chiaro e leggibile, i contenuti più utili in quest
 - roadmap del progetto;
 - pubblicazione progressiva del codice.
 
+## Stato attuale del progetto
+
+- **Fatto:** definizione dell’architettura single-master, gestione dei ruoli Master e Slave, comunicazione ESP-NOW tra i nodi, GUI web locale, elezione automatica del Master, integrazione dei sensori e gestione dei parametri persistenti.
+- **In corso:** test sul campo, valutazione della stabilità della rete in ambienti reali e rifinitura dell’architettura ibrida.
+- **Prossimo passo:** evoluzione verso una rete più robusta e scalabile, ampliamento degli scenari di integrazione e ulteriore sviluppo hardware.
+
 ## Roadmap
 
-- [x] Definizione dell'architettura con Master unico.
-- [x] Comunicazione base tra nodi via ESP-NOW.
-- [x] Implementazione di GUI locale e Web Server.
-- [x] Gestione elezione automatica del Master.
-- [x] Integrazione di sensori e parametri persistenti.
-- [ ] Miglioramento della robustezza in ambienti più grandi.
-- [ ] Introduzione di una dorsale mesh per i nodi alimentati.
-- [ ] Rifinitura del modello ibrido ESP-NOW + mesh.
-- [ ] Pubblicazione di una versione più stabile e completa.
+- [x] Definizione dell’architettura single-master.
+- [x] Comunicazione base tra nodi tramite ESP-NOW.
+- [x] Implementazione della GUI locale e del Web Server.
+- [x] Gestione automatica dell’elezione del Master.
+- [x] Integrazione dei sensori e dei parametri persistenti.
+- [ ] Migliorare la rete con un’architettura ibrida **ESP-MESH + ESP-NOW**.
+- [ ] Integrare il sistema con un **assistente vocale**.
+- [ ] Progettare e realizzare **contenitori stampati in 3D** per i nodi sensore.
+- [ ] Testare la piattaforma con altri tipi di sensori, inclusi scenari di **videosorveglianza**.
+- [ ] Aggiungere **pannelli solari** dove possibile per i nodi alimentati a batteria.
+- [ ] Pubblicare una versione più stabile e completa.
 
 ## Nota finale
 
