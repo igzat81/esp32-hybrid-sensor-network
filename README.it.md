@@ -48,17 +48,17 @@ Per chiarire la flessibilità del progetto, ho preparato alcuni schemi che mostr
 ### 1. Struttura modulare della rete
 L'architettura generica si basa su un Master connesso alla rete Wi-Fi/Home Assistant e su una serie di nodi Slave flessibili. I nodi possono essere alimentati a corrente oppure a batteria, a seconda del ruolo e dello scenario d'uso.
 
-![Schema di rete modulare](docs/images/example_multi_node_videosurveillance.png)
+![Schema di rete modulare](docs/images/multisensor_node.png)
 
 ### 2. Scenario A: Videosorveglianza multi-nodo
 Il primo esempio di utilizzo sfrutta la rete per un sistema di monitoraggio. In questo scenario, i nodi sono equipaggiati con videocamera, sensore di movimento/presenza e microfono. I nodi esterni (su balconi e giardino) operano a batteria, eventualmente supportati da piccoli pannelli solari.
 
-![Esempio di videosorveglianza](docs/images/multisensor_node.jpg)
+![Esempio di videosorveglianza](docs/images/example_multi_node_videosurveillance.png)
 
 ### 3. Scenario B: Sensori ambientali diffusi
 Il secondo esempio mostra un'applicazione per il monitoraggio climatico e ambientale. All'interno si misurano temperatura, pressione, umidità, luminosità e qualità dell'aria (CO2, TVOC). All'esterno, i nodi a batteria monitorano parametri meteorologici e agricoli, come la velocità e direzione del vento, l'intensità della pioggia sul balcone e l'umidità del terreno nell'orto.
 
-![Esempio di rete di sensori ambientali](docs/images/example_sensor_network-2.jpg)
+![Esempio di rete di sensori ambientali](docs/images/example_sensor_network.png)
 
 
 ## Cosa c'è già nel codice
