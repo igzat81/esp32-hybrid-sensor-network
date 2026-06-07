@@ -41,6 +41,28 @@ There is also an election logic in place. If the Master is no longer reachable, 
 
 This approach helps me reduce the load on the home Wi-Fi, because the local interface is concentrated on a single node while the others communicate over radio.
 
+
+## Structure and Use Cases
+
+To highlight the flexibility of the project, I prepared a few diagrams showing the network topology and just two examples among many possible application scenarios.
+
+### 1. Modular network structure
+The general architecture is based on a Master connected to the Wi-Fi/Home Assistant network and a set of flexible Slave nodes. The nodes can be powered either from mains or by battery, depending on their role and the intended use case.
+
+![Modular network structure](docs/images/multisensor_node.png)
+
+### 2. Scenario A: Multi-node video surveillance
+The first use case shows how the network can be used for a monitoring system. In this scenario, the nodes are equipped with a camera, motion/presence sensor, and microphone. Outdoor nodes, such as those placed on balconies or in the garden, can run on battery and may also be supported by small solar panels.
+
+![Multi-node video surveillance example](docs/images/example_multi_node_videosurveillance.png)
+
+### 3. Scenario B: Distributed environmental sensors
+The second example shows an application for climate and environmental monitoring. Indoor nodes can measure temperature, pressure, humidity, light level, and air quality, while outdoor battery-powered nodes can monitor wind speed and direction, rain intensity on the balcony, and soil moisture in the garden.
+
+![Distributed environmental sensor network](docs/images/example_sensor_network.png)
+
+
+
 ## What is already in the code
 
 At this stage the project already includes:
