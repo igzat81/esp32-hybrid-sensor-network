@@ -3,7 +3,7 @@
 🇮🇹 [Italian version](README.it.md)
 
 
-> **Current phase:** [Phase 1](docs/progress/phase-1/)  
+> **This repository is currently in :** [Phase 1](docs/progress/phase-1/)  
 > **Document date:** 8 June 2026
 
 
