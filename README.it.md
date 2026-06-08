@@ -105,42 +105,6 @@ Questo progetto, compresa la documentazione, è stato sviluppato con il supporto
 
 L'uso dell'AI non sostituisce la parte pratica: test, prove, scelta della direzione architetturale, individuazione dei problemi, modifica dei requisiti e valutazione di ciò che funziona oppure no dipendono dall'esperienza diretta fatta sul progetto. L'AI è per me uno strumento di supporto nello sviluppo, nel refactoring e nella documentazione, non un sostituto della sperimentazione.
 
-## Fasi di sviluppo
-
-### Fase 1 - Prime basi
-
-- Studio della struttura generale dei nodi.
-- Definizione di un Master unico.
-- Comunicazione iniziale tra nodi via ESP-NOW.
-- Prime prove con sensori e dati di stato.
-
-### Fase 2 - Controllo locale
-
-- Introduzione del Web Server sul Master.
-- Dashboard locale per monitoraggio e controllo.
-- Configurazione dei nodi da interfaccia web.
-- Gestione di label, priorità, profili e comandi operativi.
-
-### Fase 3 - Continuità del sistema
-
-- Logica di elezione automatica.
-- Gestione del failover.
-- Cambio di ruolo in caso di assenza del Master.
-- Persistenza delle preferenze e recupero dopo riavvio.
-
-### Fase 4 - Verifica sul campo
-
-- Test in ambienti meno ideali rispetto al banco di lavoro.
-- Osservazione dei limiti pratici della copertura radio.
-- Comprensione del rischio di frammentazione della rete.
-- Necessità di ripensare il modello di comunicazione.
-
-### Fase 5 - Evoluzione architetturale
-
-- Mantenere nodi leggeri via ESP-NOW.
-- Introdurre nodi alimentati a corrente con funzione di backbone.
-- Migliorare robustezza, copertura e instradamento.
-- Arrivare a una rete distribuita più affidabile.
 
 ## Perché lo sto documentando così
 
