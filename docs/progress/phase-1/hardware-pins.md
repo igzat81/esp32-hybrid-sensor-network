@@ -1,7 +1,8 @@
+## Current hardware setup — Phase 1
 
-## Current hardware setup phase-1
+This is the **current breadboard prototype** used for Phase 1, built around an **ESP32-C3 SuperMini** as the main node.
 
-This is the **current hardware used on breadboard** with an **ESP32-C3 SuperMini** as the main node.
+> **Prototype note:** this wiring is part of an ongoing verification phase. If you want to reuse it, **verify all connections before powering the board**, because the setup may change during testing and refinement.
 
 ### Sensors
 
@@ -56,8 +57,8 @@ This is the **current hardware used on breadboard** with an **ESP32-C3 SuperMini
 
 ### Firmware notes
 
-The current firmware automatically detects the OLED first, and if it is not found it initializes the TFT instead. The display subsystem is handled so that the same node logic can work with either screen type.
+The current firmware automatically detects the OLED first, and if it is not found it initializes the TFT instead. The display subsystem is designed so that the same node logic can work with either screen type.
 
 ### Current status
 
-This hardware configuration represents the **current breadboard prototype** of the project, built around the **ESP32-C3 SuperMini**
+This hardware configuration represents the **current Phase 1 breadboard prototype** of the project, based on the **ESP32-C3 SuperMini**. It is a verification setup, not a final wiring standard, and it should always be checked and confirmed before actual use.
