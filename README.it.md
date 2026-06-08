@@ -2,6 +2,10 @@
 
 🇬🇧 [English version](README.md)
 
+> **Questo repository è attualmente in :** [Fase 1](docs/progress/phase-1/)  
+> **Data del documento:** 8 giugno 2026
+
+
 Questo repository racconta un progetto personale in fase di sviluppo, nato per fare pratica in modo concreto con ESP32, comunicazione tra nodi, interfacce locali e logiche di failover.
 
 L'idea di base è costruire una rete IoT modulare composta da un solo nodo Master e più nodi Slave, con comunicazione via ESP-NOW, elezione automatica del Master in caso di guasto, supporto ad alimentazione a batteria o a corrente e possibilità di montare sensori diversi a seconda dell'applicazione.
