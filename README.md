@@ -177,6 +177,7 @@ To make the project clearer and easier to read, the most useful contents at this
 - [x] Local GUI and Web Server implementation.
 - [x] Automatic Master election handling.
 - [x] Sensor integration and persistent parameters.
+- [ ] Add ambient light sensing and proximity-based display control.
 - [ ] Improve the network with a hybrid **ESP-MESH + ESP-NOW** architecture.
 - [ ] Integrate the system with a **voice assistant**.
 - [ ] Design and build **3D-printed enclosures** for the sensor nodes.
