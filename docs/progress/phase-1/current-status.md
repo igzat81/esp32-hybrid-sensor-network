@@ -122,8 +122,10 @@ This should be stated explicitly because it correctly defines the maturity level
 
 The attached images document this prototypical breadboard condition of the nodes:
 
-- `images/node_prototype_master_temp_press.jpg`
-- `images/node_prototype_slave_temp_press.jpg`
+
+![Node prototype master](images/node_prototype_master_temp_press.jpg)
+
+![Node prototype slave](images/node_prototype_slave_temp_press.jpg)
 
 ## Web GUI
 
@@ -137,7 +139,7 @@ The node table already includes quick controls directly embedded in each row, fo
 
 Reference image:
 
-- `images/overview_gui_phase1_GUI.jpg`
+![Overview GUI](images/overview_gui_phase1_GUI.jpg)
 
 ### 2. Node configuration
 
@@ -149,7 +151,7 @@ In practice, this token is an application-level identifier used by the GUI as a 
 
 Reference image:
 
-- `images/configure_node_phase1_GUI.jpg`
+![Node configuration GUI](images/configure_node_phase1_GUI.jpg)
 
 ### 3. Sensor section
 
@@ -159,7 +161,7 @@ From a design point of view, this section shows that the work did not stop at di
 
 Reference image:
 
-- `images/bmp280_sensor_phase1_GUI.jpg`
+![BMP280 sensor GUI](images/bmp280_sensor_phase1_GUI.jpg)`
 
 ## Overall assessment of phase 1
 
