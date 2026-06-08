@@ -139,7 +139,7 @@ The node table already includes quick controls directly embedded in each row, fo
 
 Reference image:
 
-![Overview GUI](images/overview_gui_phase1_GUI.jpg)
+![Overview GUI](images/overview_gui_phase1_GUI.png)
 
 ### 2. Node configuration
 
@@ -151,7 +151,7 @@ In practice, this token is an application-level identifier used by the GUI as a 
 
 Reference image:
 
-![Node configuration GUI](images/configure_node_phase1_GUI.jpg)
+![Node configuration GUI](images/configure_node_phase1_GUI.png)
 
 ### 3. Sensor section
 
@@ -161,7 +161,7 @@ From a design point of view, this section shows that the work did not stop at di
 
 Reference image:
 
-![BMP280 sensor GUI](images/bmp280_sensor_phase1_GUI.jpg)`
+![BMP280 sensor GUI](images/bmp280_sensor_phase1_GUI.png)`
 
 ## Overall assessment of phase 1
 
