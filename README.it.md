@@ -175,6 +175,7 @@ Per rendere il progetto più chiaro e leggibile, i contenuti più utili in quest
 - [x] Implementazione della GUI locale e del Web Server.
 - [x] Gestione automatica dell’elezione del Master.
 - [x] Integrazione dei sensori e dei parametri persistenti.
+- [ ] Aggiungere il rilevamento della luminosità ambientale e il controllo del display basato sulla prossimità.
 - [ ] Migliorare la rete con un’architettura ibrida **ESP-MESH + ESP-NOW**.
 - [ ] Integrare il sistema con un **assistente vocale**.
 - [ ] Progettare e realizzare **contenitori stampati in 3D** per i nodi sensore.
