@@ -108,42 +108,6 @@ This project, including the documentation, was developed with the support of AI 
 
 The use of AI does not replace the practical side of the work: testing, experiments, architectural choices, problem finding, requirement changes, and evaluating what works or does not work all depend on direct experience with the project. For me, AI is a support tool for development, refactoring, and documentation, not a substitute for experimentation.
 
-## Development phases
-
-### Phase 1 - First foundations
-
-- Study of the general node structure.
-- Definition of a single Master.
-- Initial node-to-node communication via ESP-NOW.
-- Early tests with sensors and status data.
-
-### Phase 2 - Local control
-
-- Introduction of the Web Server on the Master.
-- Local dashboard for monitoring and control.
-- Node configuration through the web interface.
-- Management of labels, priorities, profiles, and operational commands.
-
-### Phase 3 - System continuity
-
-- Automatic election logic.
-- Failover handling.
-- Role changes when the Master is unavailable.
-- Preference persistence and recovery after reboot.
-
-### Phase 4 - Field verification
-
-- Testing in environments that are less ideal than a workbench.
-- Observation of the practical limits of radio coverage.
-- Understanding the risk of network fragmentation.
-- Need to rethink the communication model.
-
-### Phase 5 - Architectural evolution
-
-- Keep lightweight nodes using ESP-NOW.
-- Introduce mains-powered nodes as a backbone.
-- Improve robustness, coverage, and routing.
-- Move toward a more reliable distributed network.
 
 ## Why I document it this way
 
