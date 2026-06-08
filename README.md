@@ -2,8 +2,10 @@
 
 🇮🇹 [Italian version](README.it.md)
 
+
 > **Current phase:** [Phase 1](docs/progress/phase-1/)  
 > **Document date:** 8 June 2026
+
 
 This repository tells the story of a personal project that is still under development and was created to gain hands-on experience with ESP32, communication between nodes, local interfaces, and failover logic.
 
