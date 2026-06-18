@@ -159,4 +159,9 @@ Proprio per questo mi interessa documentarlo in modo onesto: non solo mostrando 
 
 ## Crediti
 
-Questo progetto è stato sviluppato da Ignazio Aita (https://github.com/igzat81/).
+Questo progetto è stato sviluppato da Ignazio Aita 
+
+https://github.com/igzat81/
+www.linkedin.com/in/ignazio-aita
+
+
