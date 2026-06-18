@@ -158,6 +158,14 @@ To make the project clearer and easier to read, the most useful contents at this
 
 This project is not meant to present a perfect solution, but to build practical experience on real IoT and embedded networking problems.
 
+
+## Credits
+
+This project was developed by Ignazio Aita.
+
+https://github.com/igzat81/
+www.linkedin.com/in/ignazio-aita
+
 For that reason I want to document it honestly: not only by showing what already works, but also by showing what I am still trying to understand and improve.
 
 ## Credits
